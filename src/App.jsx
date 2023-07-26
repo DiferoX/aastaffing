@@ -8,16 +8,18 @@ import Navbar from './components/NavBar'
 function App() {
 
   return (
-    <BrowserRouter >
-
-      <Navbar />
+    <div>
+      <BrowserRouter >
       
-      <Routes>
-        <Route path='/' element={<Home />} />
-        <Route path='/about' element={<About />} />
-        <Route path='*' element={<NotFound />} />
-      </Routes>
-    </BrowserRouter>
+        <Navbar />
+        
+        <Routes>
+          <Route path='/' element={<Home />} />
+          <Route path='/about' element={<About />} />
+          <Route path='*' element={<NotFound />} />
+        </Routes>
+      </BrowserRouter>
+    </div>
   )
 }
 
