@@ -1,0 +1,69 @@
+.active
+{
+  color: brown;
+  /* background-color: aqua; */
+  font-weight: bold;
+}
+
+
+#navbar{
+  position: relative;
+  /* top: 0; */
+  /* left: 0; */
+  background: rgba(100, 0, 0, 0.8);
+  box-shadow: 0 2px 2px red;
+  width: 100%;
+  z-index: 10;
+}
+
+.navbar-brand
+{
+  display: flex;
+  align-items: center;
+}
+
+.navItemBtns{
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.navItemBtns {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0 20px;
+  /* padding: 10px; */
+  cursor: pointer;
+  border-radius: 15px;
+  transition: 0.4s;
+}
+
+.navLinkBtns {
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+  padding: 10px;
+}
+
+.navLinkBtns.active
+{
+  color: blue;
+  /* background-color: aqua; */
+  font-weight: bold;
+}
+
+.navLinkBtns:hover{
+  /* background-color: rgba(0, 0, 255, 0.1); */
+  /* border: 2px solid blue; */
+  border-radius: 15px;
+  box-shadow: 0px 5px 2px rgba(0, 0, 255, 1),
+              0px -5px 2px rgba(0, 0, 255, 1);
+}
+
+.imgStation{
+  width: 100%;
+}
+
+.logoImg {
+  border-radius: 50%;
+}

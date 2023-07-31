@@ -1,37 +1,70 @@
 import React from 'react'
-import './Navbar.css'
-import logo from '../assets/react.svg'
 import { NavLink } from 'react-router-dom'
+import Logo from '../../src/assets/logo.jpeg'
+import '../styles/NavBar.css'
+import StopBtn from './StopBtn'
+// import { v4 as uuidv4 } from 'uuid';
+import { useState } from 'react'
 
-const Navbar = () => {
+
+const NavBar = ({ stops }) => {
+
+  const [infoRoute, setInfoRoute] = useState([])
+
+
+  const infoStation = (data) => {
+    setInfoRoute(data.routes)
+  }
+
   return (
-    <nav className="navbar navbar-expand-lg bg-body-tertiary">
-      <div className="container-fluid px-5">
-        <a className="navbar-brand" href="#">
-          <img src={logo} alt="Logo" width="30" height="24" className="d-inline-block align-text-top" />
-          Bootstrap
+    <nav id="navbar" className="navbar navbar-expand-lg navbar-dark px-5 mb-3">
+      <div className="container">
+        <a className="navbar-brand" href="#home">
+          <img src={Logo} alt="Logo" width="100" className="logoImg d-inline-block align-text-center m-3" />
+          <h2>AA Staffing</h2>
         </a>
         <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
           <span className="navbar-toggler-icon"></span>
         </button>
         <div className="collapse navbar-collapse" id="navbarSupportedContent">
           <ul className="navbar-nav ms-auto mb-2 mb-lg-0">
-            <li className="nav-item">
+            <li className="nav-item navItemBtns">
               <NavLink
-                className={({isActive}) => isActive ? "active" : ""} 
+                className={({isActive}) => isActive ? "navLinkBtns active" : "navLinkBtns"} 
                 to='/'
               >
                 Home
               </NavLink>
+              {/* <a className="navLink navLinkBtns" href="#">Home</a> */}
             </li>
-            <li className="nav-item">
+            <li className="nav-item navItemBtns">
               <NavLink
-                className={({isActive}) => isActive ? "active" : ""} 
+                className={({isActive}) => isActive ? "navLinkBtns active" : "navLinkBtns"} 
                 to='/about'
               >
                 About
               </NavLink>
             </li>
+          
+            {/* <div className="btn-group" role="group">
+              <button type="button" className="btn btn-primary dropdown-toggle btn-lg" data-bs-toggle="dropdown" aria-expanded="false">
+                Finch Station List
+              </button>
+              <ul className="dropdown-menu dropdown-menu-dark">
+                {
+                  // Render the stops list
+                  stops.map((stop) => {
+                    return (
+                      <StopBtn
+                        key={uuidv4()}
+                        stop={stop}
+                        infoStation={infoStation}
+                      />
+                    );
+                  })
+                }
+              </ul>
+            </div> */}
           </ul>
         </div>
       </div>
@@ -39,26 +72,4 @@ const Navbar = () => {
   )
 }
 
-export default Navbar
-
-
-{/* <nav className='navigation navbar navbar-expand-lg navbar-light'>
-      <ul>
-        <li>
-          <NavLink
-            className={({isActive}) => isActive ? "active" : ""} 
-            to='/'
-          >
-            Home
-          </NavLink>
-        </li>
-        <li>
-          <NavLink
-            className={({isActive}) => isActive ? "active" : ""} 
-            to='/about'
-          >
-            About
-          </NavLink>
-        </li>
-      </ul>
-    </nav> */}
+export default NavBar
