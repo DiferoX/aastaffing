@@ -10,8 +10,8 @@
   position: relative;
   /* top: 0; */
   /* left: 0; */
-  background: rgba(100, 0, 0, 0.8);
-  box-shadow: 0 2px 2px red;
+  background: #212D3A;
+  box-shadow: 0 2px 2px #cf2e2e;
   width: 100%;
   z-index: 10;
 }
@@ -22,7 +22,7 @@
   align-items: center;
 }
 
-.navItemBtns{
+.navLinkBtns{
   text-decoration: none;
   font-weight: bold;
 }
@@ -39,25 +39,28 @@
 }
 
 .navLinkBtns {
-  color: white;
-  text-decoration: none;
-  font-weight: bold;
-  padding: 10px;
+  color: #fff;
+  padding: 10px 15px;
+  font-size: 13px;
+  text-transform: uppercase;
+  /* letter-spacing: .05em; */
+  font-weight: 600;
+  display: block;
+  transition: 0.5s;
 }
 
 .navLinkBtns.active
 {
-  color: blue;
-  /* background-color: aqua; */
+  color: #cf2e2e;
   font-weight: bold;
+  border-bottom: 1px solid #cf2e2e;
+  box-shadow: 0 2px 2px #cf2e2e;
+  transition: 1s;
 }
 
 .navLinkBtns:hover{
-  /* background-color: rgba(0, 0, 255, 0.1); */
-  /* border: 2px solid blue; */
-  border-radius: 15px;
-  box-shadow: 0px 5px 2px rgba(0, 0, 255, 1),
-              0px -5px 2px rgba(0, 0, 255, 1);
+  color: #cf2e2e;
+  transition: 0.5s;
 }
 
 .imgStation{

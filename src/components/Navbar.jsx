@@ -17,11 +17,14 @@ const NavBar = ({ stops }) => {
   }
 
   return (
-    <nav id="navbar" className="navbar navbar-expand-lg navbar-dark px-5 mb-3">
+    <nav id="navbar" className="navbar navbar-expand-lg navbar-dark px-5">
       <div className="container">
         <a className="navbar-brand" href="#home">
           <img src={Logo} alt="Logo" width="100" className="logoImg d-inline-block align-text-center m-3" />
-          <h2>AA Staffing</h2>
+          <div>
+            <h2>AA STAFFING</h2>
+            <h6>Abogados Americanos</h6>
+          </div>
         </a>
         <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
           <span className="navbar-toggler-icon"></span>
@@ -36,6 +39,46 @@ const NavBar = ({ stops }) => {
                 Home
               </NavLink>
               {/* <a className="navLink navLinkBtns" href="#">Home</a> */}
+            </li>
+            <li className="nav-item navItemBtns">
+              <NavLink
+                className={({isActive}) => isActive ? "navLinkBtns active" : "navLinkBtns"} 
+                to='/about'
+              >
+                Practice Areas
+              </NavLink>
+            </li>
+            <li className="nav-item navItemBtns">
+              <NavLink
+                className={({isActive}) => isActive ? "navLinkBtns active" : "navLinkBtns"} 
+                to='/about'
+              >
+                People
+              </NavLink>
+            </li>
+            <li className="nav-item navItemBtns">
+              <NavLink
+                className={({isActive}) => isActive ? "navLinkBtns active" : "navLinkBtns"} 
+                to='/about'
+              >
+                Case Studies
+              </NavLink>
+            </li>
+            <li className="nav-item navItemBtns">
+              <NavLink
+                className={({isActive}) => isActive ? "navLinkBtns active" : "navLinkBtns"} 
+                to='/about'
+              >
+                News
+              </NavLink>
+            </li>
+            <li className="nav-item navItemBtns">
+              <NavLink
+                className={({isActive}) => isActive ? "navLinkBtns active" : "navLinkBtns"} 
+                to='/about'
+              >
+                Contact
+              </NavLink>
             </li>
             <li className="nav-item navItemBtns">
               <NavLink
