@@ -7,13 +7,12 @@
 
 
 #navbar{
-  position: relative;
-  /* top: 0; */
-  /* left: 0; */
   background: #212D3A;
   box-shadow: 0 2px 2px #cf2e2e;
   width: 100%;
-  z-index: 10;
+  padding: 0 5%;
+  border-bottom: 1px solid #cf2e2e;
+  /* box-shadow: 0 2px 2px #cf2e2e; */
 }
 
 .navbar-brand
