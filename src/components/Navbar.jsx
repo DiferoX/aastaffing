@@ -2,19 +2,18 @@ import React from 'react'
 import { NavLink } from 'react-router-dom'
 import Logo from '../../src/assets/logo.jpeg'
 import '../styles/NavBar.css'
-import StopBtn from './StopBtn'
 // import { v4 as uuidv4 } from 'uuid';
 import { useState } from 'react'
 
 
-const NavBar = ({ stops }) => {
+const NavBar = () => {
 
-  const [infoRoute, setInfoRoute] = useState([])
+  // const [infoRoute, setInfoRoute] = useState([])
 
 
-  const infoStation = (data) => {
-    setInfoRoute(data.routes)
-  }
+  // const infoStation = (data) => {
+  //   setInfoRoute(data.routes)
+  // }
 
   return (
     <nav id="navbar" className="navbar navbar-expand-lg navbar-dark">
@@ -43,7 +42,7 @@ const NavBar = ({ stops }) => {
             <li className="nav-item navItemBtns">
               <NavLink
                 className={({isActive}) => isActive ? "navLinkBtns active" : "navLinkBtns"} 
-                to='/about'
+                to='/practice-area'
               >
                 Practice Areas
               </NavLink>
@@ -51,7 +50,7 @@ const NavBar = ({ stops }) => {
             <li className="nav-item navItemBtns">
               <NavLink
                 className={({isActive}) => isActive ? "navLinkBtns active" : "navLinkBtns"} 
-                to='/about'
+                to='/people'
               >
                 People
               </NavLink>
@@ -59,7 +58,7 @@ const NavBar = ({ stops }) => {
             <li className="nav-item navItemBtns">
               <NavLink
                 className={({isActive}) => isActive ? "navLinkBtns active" : "navLinkBtns"} 
-                to='/about'
+                to='/case-studies'
               >
                 Case Studies
               </NavLink>
@@ -67,7 +66,7 @@ const NavBar = ({ stops }) => {
             <li className="nav-item navItemBtns">
               <NavLink
                 className={({isActive}) => isActive ? "navLinkBtns active" : "navLinkBtns"} 
-                to='/about'
+                to='/news'
               >
                 News
               </NavLink>
@@ -75,7 +74,7 @@ const NavBar = ({ stops }) => {
             <li className="nav-item navItemBtns">
               <NavLink
                 className={({isActive}) => isActive ? "navLinkBtns active" : "navLinkBtns"} 
-                to='/about'
+                to='/contact'
               >
                 Contact
               </NavLink>

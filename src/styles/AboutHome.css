@@ -1,4 +1,4 @@
-.serviceMainConten{
+.serviceMainContent {
   background-color: #eee;
   padding: 100px 0;
 }
@@ -7,30 +7,30 @@
   display: flex;
   flex-direction: column;
   justify-content: center;
-  align-items: center;
+  align-items: flex-start;
 }
 
 .iconContent{
   display: flex;
   justify-content: center;
   align-items: center;
-  height: 200px;
-  width: 200px;
-  background-color: darkblue;
+  height: 50px;
+  width: 50px;
+  /* background-color: #cf2e2e; */
   border-radius: 50%;
   cursor: pointer;
 }
 
 .serviceIcon{
-  font-size: 10vh;
-  color: white;
+  font-size: 30px;
+  color: #cf2e2e;
 }
 
-.serviceMainConten h6{
+/* .serviceMainConten h6{
   font-style: italic;
-}
+} */
 
-.serviceMainConten h2, .serviceMainConten h4{
-  color: darkorange;
+.serviceMainContent h2, .serviceMainContent h4{
+  color: #000;
   text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.8);
 }
