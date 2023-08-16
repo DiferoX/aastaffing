@@ -1,11 +1,3 @@
-.active
-{
-  color: brown;
-  /* background-color: aqua; */
-  font-weight: bold;
-}
-
-
 #navbar{
   background: #212D3A;
   box-shadow: 0 2px 2px #cf2e2e;
@@ -51,7 +43,7 @@
 .navLinkBtns.active
 {
   color: #cf2e2e;
-  font-weight: bold;
+  /* font-weight: bold; */
   border-bottom: 1px solid #cf2e2e;
   box-shadow: 0 2px 2px #cf2e2e;
   transition: 1s;

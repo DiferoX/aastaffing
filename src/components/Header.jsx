@@ -7,31 +7,60 @@ import HeadImg03 from '../assets/0003.jpg'
 const Header = () => {
   return (
 
-    <div id="carouselExampleFade" className="carousel slide carousel-fade" data-bs-ride="carousel">
+    <div id="carouselExampleFade" className="carousel slide carousel-fade" data-bs-ride="carousel" data-bs-pause="false">
+
+      {/* <div className="carousel-indicators">
+        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+      </div> */}
+
       <div className="carousel-inner">
-        <div className="carousel-item active">
-          <img src={HeadImg01} className="d-block w-100" alt={HeadImg01} />
-        </div>
-        <div className="row carousel-item">
-          <div className="col-6 carousel-caption d-none d-md-block">
-            <h5>Second slide label</h5>
-            <p>Some representative placeholder content for the second slide.</p>
+
+        <div className="itemContent carousel-item active" data-bs-interval="5000">
+          <div id='carousel-item-01' className='overlay-image'></div>
+          <div className="headContent container">
+            <h1>T1 slide label</h1>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nam, suscipit?</p>
           </div>
+        </div>
+
+        <div className="itemContent carousel-item" data-bs-interval="5000">
+          <div id='carousel-item-02' className='overlay-image'></div>
+          <div className="headContent container">
+            <h1>T2 slide label</h1>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quod quasi explicabo, reiciendis animi officiis voluptates beatae suscipit adipisci delectus voluptatem?</p>
+          </div>
+        </div>
+
+        <div className="itemContent carousel-item" data-bs-interval="5000">
+          <div id='carousel-item-03' className='overlay-image'></div>
+          <div className="headContent container">
+            <h1>T3 slide label</h1>
+            <p>Lorem ipsum dolor sit amet consectetur endis animi officiis voluptates beatae suscipit adipisci delectus voluptatem?</p>
+          </div>
+        </div>
+
+
+
+
+        
+        {/* <div className="carousel-item">
           <img src={HeadImg02} className="col-6 d-block w-100" alt={HeadImg02} />
         </div>
         <div className="row carousel-item">
           <img src={HeadImg03} className="d-block w-100" alt={HeadImg03} />
-        </div>
+        </div> */}
       </div>
 
-      <button className="carousel-control-prev" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="prev">
+      {/* <button className="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
         <span className="carousel-control-prev-icon" aria-hidden="true"></span>
         <span className="visually-hidden">Previous</span>
       </button>
-      <button className="carousel-control-next" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="next">
+      <button className="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
         <span className="carousel-control-next-icon" aria-hidden="true"></span>
         <span className="visually-hidden">Next</span>
-      </button>
+      </button> */}
     </div>
   )
 }

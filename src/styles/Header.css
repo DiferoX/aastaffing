@@ -6,7 +6,48 @@
   box-shadow: 0 10px 10px rgba(0,0,0);
 }
 
-.headerImg{
-  /* height: 100vh; */
-  width: 100%;
+#carouselExampleFade {
+  clip-path: polygon(0 0, 100% 0, 100% 90%, 30% 100%, 0 90%);
+}
+
+.itemContent, .itemContent.active {
+  position: relative;
+  display: flex;
+  align-items: center;
+  height: 80vh;
+  background-color: #000;
+  color: #fff;
+}
+
+.headContent {
+  z-index: 1;
+}
+
+.headContent p {
+  width: 50%;
+  margin-top: 20px;
+}
+
+#carousel-item-01 {
+  background-image: url(../assets/0005.jpg);
+}
+
+#carousel-item-02 {
+  background-image: url(../assets/0009.jpg);
+}
+
+#carousel-item-03 {
+  background-image: url(../assets/0001.jpg);
+}
+
+.overlay-image {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-position: center;
+  background-size: cover;
+  opacity: 0.5;
+  z-index: 0;
 }
