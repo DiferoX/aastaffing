@@ -1,0 +1,54 @@
+.cardHomeMainContent {
+  position: relative;
+  display: flex;
+  align-items: flex-end;
+  height: 100vh;
+  background-color: #eee;
+  padding: 100px 0;
+}
+
+.mainImage {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-image: url(../assets/0007.jpg);
+  clip-path: polygon(0 0, 100% 0, 100% 75%, 0 75%);
+  background-position: center;
+  background-size: cover;
+  opacity: 0.8;
+  z-index: 0;
+}
+
+.card {
+  box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.5);
+}
+
+.cardHomeContent{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.iconCardContent{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 50px;
+  width: 50px;
+  /* background-color: #cf2e2e; */
+  border-radius: 50%;
+  cursor: pointer;
+}
+
+.cardHomeIcon{
+  font-size: 50px;
+  color: #cf2e2e;
+}
+
+.cardHomeMainContent h2, .cardHomeMainContent h4{
+  color: #000;
+  text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.8);
+}
