@@ -10,10 +10,6 @@ const CardsHome = () => {
       <div className='mainImage'></div>
       
       <div className='container'>
-        {/* <div className='text-center mb-5'>
-          <h2 className="section-heading text-uppercase">cardHomes</h2>
-          <h6>Lorem ipsum dolor sit amet consectetur.</h6>
-        </div> */}
         <div className="card-group row text-center">
           <div className='card col-md-4 mx-4 py-5'>
             <div className="cardHomeContent card-body">
