@@ -5,7 +5,7 @@ import { GiShakingHands, GiBugleCall } from 'react-icons/gi';
 
 const CardsHome = () => {
   return (
-    <section id='cardsHome' className='cardHomeMainContent page-section'>
+    <section id='cardsHome' className='cardHomeMainContent page-section my-5'>
 
       <div className='mainImage'></div>
       

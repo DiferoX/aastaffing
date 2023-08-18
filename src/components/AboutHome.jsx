@@ -7,14 +7,14 @@ import { BsFillBriefcaseFill } from 'react-icons/bs';
 
 const AboutHome = () => {
   return (
-    <section id='aboutHome' className='serviceMainContent page-section'>
+    <section id='aboutHome' className='serviceMainContent page-section my-5'>
       <div className='container'>
         <div className="row">
           <div className='col-md-6 text-start pe-5'>
             <p className="text-decoration-underline text-danger">ABOUT</p>
             <h1 className="section-heading text-capitalize mb-3 fs-1 fw-bolder">International law firm based in ???</h1>
             <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dolores atque reprehenderit ea vero nam ipsa et repellat asperiores nobis ratione dolor, laboriosam vitae deserunt facilis omnis ad corrupti, esse molestias quis! Fugit itaque nisi impedit laboriosam unde beatae nemo optio laborum possimus pariatur exercitationem, adipisci illo soluta quae aut magnam?</p>
-            <button type="button" className="btn btn-outline-danger mt-5 fw-bold">Find More</button>
+            <button type="button" className="btn btn-danger mt-5 fw-bold">Find More</button>
           </div>
 
           <div className="col-md-6">

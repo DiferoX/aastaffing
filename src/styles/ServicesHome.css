@@ -1,0 +1,22 @@
+.servicesHomeMainContent {
+  background-color: #eee;
+  padding: 100px 0;
+}
+
+.containerTwo {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.serviceContent {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+}
+
+.servicesHomeMainContent h2, .servicesHomeMainContent h4 {
+  color: #000;
+  text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.8);
+}
