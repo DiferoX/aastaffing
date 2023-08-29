@@ -6,6 +6,7 @@ import Services from '../components/ServicesHome';
 import CounterHome from '../components/CounterHome';
 import ContactUsHome from '../components/ContactUsHome';
 import TestimonialsHome from '../components/TestimonialsHome';
+import CaseStudies from '../components/CaseStudies';
 
 const Home = () => {
   return (
@@ -17,7 +18,7 @@ const Home = () => {
         <CardsHome />
         <Services />
         <CounterHome />
-        <AboutHome />
+        <CaseStudies />
         <TestimonialsHome />
         <ContactUsHome />
       </div>
