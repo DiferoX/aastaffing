@@ -13,6 +13,7 @@ import NotFound from './pages/NotFound'
 
 import NavBar from './components/NavBar';
 import Footer from './components/Footer';
+import OurClients from './pages/OurClients'
 
 
 
@@ -50,7 +51,7 @@ function App() {
           <Route path='/' element={<Home />} />
           <Route path='/practice-area' element={<PracticeArea />} />
           <Route path='/people' element={<People />} />
-          <Route path='/case-studies' element={<CaseStudies />} />
+          <Route path='/our-clients' element={<OurClients />} />
           <Route path='/news' element={<News />} />
           <Route path='/contact' element={<ContactUs />} />
           <Route path='/about' element={<About />} />
