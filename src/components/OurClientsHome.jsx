@@ -1,5 +1,6 @@
 import React from 'react'
 import '../styles/OurClientsHome.css'
+import { Link } from 'react-router-dom'
 
 const OurClientsHome = () => {
   return (
@@ -17,7 +18,7 @@ const OurClientsHome = () => {
             <p className="text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit.</p>
           </div>
           <div className='d-flex justify-content-end align-items-center'>
-            <button type="button" className="btn btn-danger btn-lg fw-bold">View All</button>
+            <Link to="/our-clients" className="btn btn-danger btn-lg fw-bold">View All</Link>
           </div>
         </div>
 

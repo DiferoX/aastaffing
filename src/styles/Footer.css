@@ -1,12 +1,34 @@
+.footCardLinks {
+  display: flex;
+  flex-direction: column;
+}
+
+.footCardLinks a {
+  text-decoration: none;
+  color: white;
+  margin: 0 20px;
+  transition: 0.5s;
+}
+
+.footCardLinks a:hover {
+  color: #cf2e2e;
+  text-decoration: underline;
+  transition: 0.5s;
+}
+
+
+
 .footerContent{
   /* height: 20vh; */
   color: white;
-  /* background: rgb(84,0,0); */
-  background: radial-gradient(circle, rgba(64,64,64,1) 70%, rgba(0,0,0,1) 100%);
+  background: #212D3A;
+  /* background: radial-gradient(circle, rgba(64,64,64,1) 70%, rgba(0,0,0,1) 100%); */
   display: flex;
   justify-content: center;
   align-items: center;
-  box-shadow: 0 -2px 2px rgb(0, 0, 0);
+  padding-top: 80px;
+  box-shadow: 0 -2px 2px #cf2e2e;
+  border-top: 1px solid #cf2e2e;
 }
 
 .footCard{
@@ -16,7 +38,7 @@
   height: 10vh;
 }
 
-.footCard a{
+.footCard a {
   text-decoration: none;
   color: white;
   margin: 0 20px;
@@ -28,10 +50,12 @@
   align-items: center;
 }
 
-.footCardIcon{
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  margin: 20px;
+.footCardIcons a {
+  font-size: 30px;
+  transition: 0.5s;
+}
+
+.footCardIcons a:hover {
+  color: aqua;
+  transform: scale(125%);
 }
