@@ -28,6 +28,14 @@
   margin-top: 20px;
 }
 
+.headContent h1 {
+  font-size: 100px;
+  font-weight: bold;
+  color: #fff;
+  margin-bottom: 80px;
+  text-shadow: 5px 5px 5px rgba(100, 100, 100, 0.4);
+}
+
 #carousel-item-01 {
   background-image: url(../assets/0005.jpg);
 }

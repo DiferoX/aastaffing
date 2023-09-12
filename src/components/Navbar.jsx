@@ -52,7 +52,7 @@ const NavBar = () => {
                 className={({isActive}) => isActive ? "navLinkBtns active" : "navLinkBtns"} 
                 to='/people'
               >
-                People
+                Our Team
               </NavLink>
             </li>
             <li className="nav-item navItemBtns">

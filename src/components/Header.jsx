@@ -21,7 +21,8 @@ const Header = () => {
           <div id='carousel-item-01' className='overlay-image'></div>
           <div className="headContent container">
             <h1>T1 slide label</h1>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nam, suscipit?</p>
+            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Impedit, velit maiores illum voluptatem dolorum praesentium magni unde cupiditate nostrum ratione.</p>
+            <button type="button" className="btn btn-danger btn-lg mt-5 fw-bold">Find More</button>
           </div>
         </div>
 
@@ -29,7 +30,8 @@ const Header = () => {
           <div id='carousel-item-02' className='overlay-image'></div>
           <div className="headContent container">
             <h1>T2 slide label</h1>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quod quasi explicabo, reiciendis animi officiis voluptates beatae suscipit adipisci delectus voluptatem?</p>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laborum, recusandae similique? Eveniet molestias consequuntur fuga molestiae quidem, at dolorum consequatur ut quasi ipsam dignissimos, quos cum perspiciatis ea ullam quas?</p>
+            <button type="button" className="btn btn-danger btn-lg mt-5 fw-bold">Find More</button>
           </div>
         </div>
 
@@ -37,7 +39,8 @@ const Header = () => {
           <div id='carousel-item-03' className='overlay-image'></div>
           <div className="headContent container">
             <h1>T3 slide label</h1>
-            <p>Lorem ipsum dolor sit amet consectetur endis animi officiis voluptates beatae suscipit adipisci delectus voluptatem?</p>
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nihil amet, veniam qui doloribus in quaerat veritatis nulla eveniet vitae debitis quidem, quos, corrupti enim eum?</p>
+            <button type="button" className="btn btn-danger btn-lg mt-5 fw-bold">Find More</button>
           </div>
         </div>
 

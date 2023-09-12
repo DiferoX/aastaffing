@@ -1,10 +1,10 @@
 import React from 'react'
-import UnderConstruction from '../components/UnderConstruction';
+import ServicesHome from '../components/ServicesHome';
 
 const PracticeArea = () => {
   return (
     <div>
-      <UnderConstruction />
+      <ServicesHome />
     </div>
   )
 }
