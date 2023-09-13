@@ -59,3 +59,43 @@
   opacity: 0.5;
   z-index: 0;
 }
+
+
+/* ===========================================================  */
+
+
+.headerContent {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 20vh;
+  background-color: #cf2e2e;
+  box-shadow: 0 2px 2px #cf2e2e;
+  border-bottom: 1px solid #cf2e2e;
+}
+
+.headerContent p {
+  font-size: 80px;
+  font-weight: bold;
+}
+
+.headerContent p, .headerContent h5 {
+  color: #fff;
+  text-shadow: 5px 5px 5px rgb(0, 0, 0);
+  z-index: 1;
+}
+
+.overlayImageHeader {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-position: center;
+  background-size: cover;
+  opacity: 0.6;
+  z-index: 0;
+}
+

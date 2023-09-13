@@ -5,12 +5,16 @@ import { FiMail } from 'react-icons/fi';
 
 const ContactUs = () => {
   return (
-    <div className='container'>
+    <div>
 
-      <div className="row py-5">
-        <div className="ContactUsContent">
-          <p className="text-muted">Contact Us</p>
-          <h3 className="fw-bold">1-800-000-111</h3>
+      {/* CSS in Header.css */}
+      <div className='container-fluid'>
+        <div className="row">
+          <div className="headerContent">
+            <div id='head-image-ContactUs' className='overlayImageHeader'></div>
+            <p className="text-center">Contact Us</p>
+            <h5 className="fw-bold">Contact us for a free consultation</h5>
+          </div>
         </div>
       </div>
 

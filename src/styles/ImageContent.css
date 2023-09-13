@@ -1,0 +1,56 @@
+.ImageBarContent {
+	background-color: #cf2e2e;
+	height: 40vh;
+}
+
+.ImageBarContent .row {
+	height: 50%;
+}
+
+#ImageBar-Img001 {
+	background-image: url(../assets/0006.jpg);
+}
+
+#ImageBar-Img002 {
+	background-image: url(../assets/0009.jpg);
+}
+
+#ImageBar-Img003 {
+	background-image: url(../assets/0007.jpg);
+}
+
+#ImageBar-Img004 {
+	background-image: url(../assets/0003.jpg);
+}
+
+#ImageBar-Img005 {
+	background-image: url(../assets/0013.jpg);
+}
+
+#ImageBar-Img006 {
+	background-image: url(../assets/0008.jpg);
+}
+
+#ImageBar-Img007 {
+	background-image: url(../assets/0017.jpg);
+}
+
+#ImageBar-Img008 {
+	background-image: url(../assets/0010.jpg);
+}
+
+#ImageBar-Img009 {
+	background-image: url(../assets/0015.jpg);
+}
+
+#ImageBar-Img010 {
+	background-image: url(../assets/0004.jpg);
+}
+
+.overlayImageBar {
+  background-position: center;
+  background-size: cover;
+	background-repeat: no-repeat;
+  opacity: 0.5;
+  z-index: 0;
+}

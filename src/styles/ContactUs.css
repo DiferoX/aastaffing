@@ -2,13 +2,6 @@
   padding: 100px 0;
 }
 
-.ContactUsContent p {
-  font-size: 80px;
-  font-weight: bold;
-  color: #000;
-  text-shadow: 5px 5px 5px rgba(0, 0, 0, 0.4);
-}
-
 .contactFormIcon {
   color: #cf2e2e;
   font-size: 25px;
@@ -18,4 +11,8 @@
 .formContent div textarea{
   height: 100%;
   resize: none;
+}
+
+#head-image-ContactUs {
+  background-image: url(../assets/0005.jpg);
 }
