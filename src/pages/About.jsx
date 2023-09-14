@@ -3,8 +3,9 @@ import '../styles/About.css'
 import AboutHome from '../components/AboutHome';
 import CounterHome from '../components/CounterHome';
 import ImageContent from '../components/ImageContent';
-import OurClientsHome from '../components/OurClientsHome';
+import OurTeamHome from '../components/OurTeamHome';
 import img01 from '../assets/0010.jpg'
+import img02 from '../assets/0018.jpg'
 
 const About = () => {
   return (
@@ -22,8 +23,21 @@ const About = () => {
       </div>
 
 
+      <div className='container'>
+        <div id='aboutUsExperienceMainContent' className='mb-0'>
+          <div className="aboutUsOfficeContent col-md-7">
+            <p className="text-decoration-underline text-danger text-uppercase fw-bold">30 YEARS OF EXPERIENCE</p>
+            <h1 className='mb-4'>We provide solutions to your legal problems</h1>
+            <p className="text-start">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit.</p>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Placeat debitis minus, minima adipisci sunt quae inventore at est provident perferendis tempore, voluptate natus voluptatem libero excepturi impedit earum temporibus doloremque optio ipsum ipsam. Nisi cumque quas pariatur atque sapiente animi minima in fugiat sunt, tempore qui est, dolor id minus?</p>
+          </div>
+          <img src={img02} className="col-md-5 w-50" alt={img02} />
+        </div>
+      </div>
+
+
       <AboutHome />
-      <OurClientsHome />
+      <OurTeamHome />
       <CounterHome />
       <ImageContent />
 
@@ -36,6 +50,16 @@ const About = () => {
             <p className="text-start">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit.</p>
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Placeat debitis minus, minima adipisci sunt quae inventore at est provident perferendis tempore, voluptate natus voluptatem libero excepturi impedit earum temporibus doloremque optio ipsum ipsam. Nisi cumque quas pariatur atque sapiente animi minima in fugiat sunt, tempore qui est, dolor id minus?</p>
           </div>
+        </div>
+      </div>
+
+
+      <div className="row text-start px-4">
+        <div className="legalServicesContent">
+          <div id='image-legalServices' className='overlayLegalServices'></div>
+          <h6 className="text-decoration-underline text-danger fw-bold">LEGAL SERVICES</h6>
+          <p className="text-center">We help solve your legal issues</p>
+          <button type="button" className="btn btn-danger btn-lg mt-5 fw-bold">Make an Appointment</button>
         </div>
       </div>
 

@@ -2,7 +2,7 @@
 	background-image: url(../assets/0015.jpg);
 }
 
-#aboutUsOfficeMainContent {
+#aboutUsOfficeMainContent, #aboutUsExperienceMainContent {
 	display: flex;
 	padding: 100px 0;
 	gap: 100px;
@@ -14,4 +14,42 @@
   font-weight: bold;
   color: #000;
   text-shadow: 5px 5px 5px rgba(0, 0, 0, 0.4);
+}
+
+.legalServicesContent {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 40vh;
+  background-color: #000;
+}
+
+.legalServicesContent p {
+  font-size: 80px;
+  font-weight: bold;
+  color: #fff;
+  text-shadow: 5px 5px 5px rgba(0, 0, 0);
+}
+
+.legalServicesContent p, .legalServicesContent h6, .legalServicesContent button {
+  z-index: 1;
+}
+
+#image-legalServices {
+  background-image: url(../assets/0008.jpg);
+}
+
+.overlayLegalServices {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-position: center;
+  background-size: cover;
+  background-attachment: fixed;
+  opacity: 0.4;
+  z-index: 0;
 }
