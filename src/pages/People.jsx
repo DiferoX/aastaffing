@@ -1,4 +1,5 @@
 import React from 'react'
+import '../styles/People.css'
 import { ourTeam } from '../components/TeamList';
 import ImageContent from '../components/ImageContent';
 
@@ -7,6 +8,17 @@ const People = () => {
   return (
     <div>
 
+      {/* CSS in Header.css */}
+      <div className='container-fluid'>
+        <div className="row">
+          <div className="headerContent">
+            <div id='head-image-ourTeam' className='overlayImageHeader'></div>
+            <p className="text-center">Our Team</p>
+            <h5 className="fw-bold">We offer the best legal services</h5>
+          </div>
+        </div>
+      </div>
+
       <div className='container'>
 
         <div className='ourTeamHomeContent1 my-5'>
@@ -14,13 +26,13 @@ const People = () => {
           <h1 className='text-center'>Professional Team</h1>
         </div>
 
-        <div className='row row-cols-1 row-cols-md-3 g-5 my-5'>
+        <div className='row row-cols-1 row-cols-md-3 g-5 my-5 d-flex justify-content-center'>
           {
             ourTeam.map(coworker => 
               <div className="col">
                 <div className='card'>
-                  <div className="peopleContent card-body col-md-5">
-                    <img src={ coworker.image } className="people-images" alt={ coworker.name } />
+                  <div className="peopleContent card-body">
+                    <img src={ coworker.image } className="people-images w-100" alt={ coworker.name } />
                     {/* <div id='peopleImg-01' className='people-images'></div> */}
                   </div>
                 </div>
@@ -28,7 +40,7 @@ const People = () => {
                   <p className="text-uppercase text-danger">{ coworker.title }</p>
                   <h3 className="text-capitalize fw-bold">{ coworker.name }</h3>
                   <p className='mt-4'>{ coworker.info }</p>
-                  <div className='mt-5'>
+                  <div className='my-5'>
                     {
                       coworker.networks.map(network =>
                         network.name
