@@ -1,4 +1,4 @@
-.ourTeamHomeMainContent {
+.peopleMainContent {
   position: relative;
   display: flex;
   align-items: flex-end;
@@ -7,7 +7,7 @@
   padding: 100px 0;
 }
 
-.ourTeamHomeMainImage {
+.peopleMainImage {
   position: absolute;
   top: 0;
   bottom: 0;
@@ -17,13 +17,13 @@
   z-index: -1;
 }
 
-.ourTeamHomeContent1 {
+.peopleContent1 {
   display: flex;
   flex-direction: column;
   justify-content: center;
 }
 
-.ourTeamHomeContent1 h1 {
+.peopleContent1 h1 {
   font-size: 80px;
   font-weight: bold;
   color: #000;
@@ -34,7 +34,7 @@
   box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.5);
 }
 
-.ourTeamHomeContent{
+.peopleContent{
   position: relative;
   height: 350px;
   /* width: 400px; */
@@ -57,29 +57,17 @@
   cursor: pointer;
 }
 
-.ourTeamHomeIcon{
+.peopleIcon{
   font-size: 50px;
   color: #cf2e2e;
 }
 
-.ourTeamHomeContentInfo h6, .ourTeamHomeContentInfo h4{
+.peopleContentInfo h6, .peopleContentInfo h4{
   color: #000;
   z-index: 0;
 }
 
-#ourTeamHomeImg-01 {
-  background-image: url(https://i.pravatar.cc/450?img=12);
-}
-
-#ourTeamHomeImg-02 {
-  background-image: url(https://i.pravatar.cc/450?img=5);
-}
-
-#ourTeamHomeImg-03 {
-  background-image: url(https://i.pravatar.cc/450?img=11);
-}
-
-.ourTeamHome-images {
+.people-images {
   position: absolute;
   top: 0;
   bottom: 0;
@@ -93,7 +81,7 @@
   cursor: pointer;
 }
 
-.ourTeamHome-images:hover {
+.people-images:hover {
   transform: scale(110%);
   transition: 0.5s;
 }

@@ -1,6 +1,8 @@
 import React from 'react'
 import '../styles/OurTeamHome.css'
 import { Link } from 'react-router-dom'
+import { FaTwitter, FaFacebookF, FaLinkedinIn } from 'react-icons/fa';
+import { FiMail } from 'react-icons/fi';
 
 const OurTeamHome = () => {
   return (
@@ -10,7 +12,6 @@ const OurTeamHome = () => {
       
       <div className='container'>
 
-        
         <div className='ourTeamHomeContent1 mb-5'>
           <p className="text-decoration-underline text-center text-danger text-uppercase fw-bold">OUR TEAM</p>
           <h1 className='text-center'>Professional Team</h1>
@@ -29,23 +30,32 @@ const OurTeamHome = () => {
             </div>
             <div className="ourTeamHomeContentInfo text-center mt-5">
               <p className="text-uppercase text-danger">FOUNDER</p>
-              <h3 className="text-capitalize fw-bold">Company Name</h3>
+              <h3 className="text-capitalize fw-bold">Peter Parker</h3>
               <p className='mt-4'>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusantium molestias in alias hic quaerat dignissimos aliquid consectetur unde, quibusdam quasi.</p>
-              <div></div>
+              <div className='mt-5'>
+                <FaTwitter className='ourTeamIconInfo' />
+                <FaFacebookF className='ourTeamIconInfo' />
+                <FaLinkedinIn className='ourTeamIconInfo' />
+                <FiMail className='ourTeamIconInfo' />
+              </div>
             </div>
           </div>
-
-
-
-
-
 
           <div className="col">
             <div className='card'>
               <div className="ourTeamHomeContent card-body">
                 <div id='ourTeamHomeImg-02' className='ourTeamHome-images'></div>
-                <h6 className="text-uppercase">Lorem ipsum dolor.</h6>
-                <h4 className="text-capitalize">Company Name</h4>
+              </div>
+            </div>
+            <div className="ourTeamHomeContentInfo text-center mt-5">
+              <p className="text-uppercase text-danger">FOUNDER</p>
+              <h3 className="text-capitalize fw-bold">Natasha Romanoff</h3>
+              <p className='mt-4'>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Atque expedita eveniet omnis a saepe unde architecto, nisi aliquam?</p>
+              <div className='mt-5'>
+                <FaTwitter className='ourTeamIconInfo' />
+                <FaFacebookF className='ourTeamIconInfo' />
+                <FaLinkedinIn className='ourTeamIconInfo' />
+                <FiMail className='ourTeamIconInfo' />
               </div>
             </div>
           </div>
@@ -54,11 +64,21 @@ const OurTeamHome = () => {
             <div className='card'>
               <div className="ourTeamHomeContent card-body">
                 <div id='ourTeamHomeImg-03' className='ourTeamHome-images'></div>
-                <h6 className="text-uppercase">Lorem ipsum dolor.</h6>
-                <h4 className="text-capitalize">Company Name</h4>
+              </div>
+            </div>
+            <div className="ourTeamHomeContentInfo text-center mt-5">
+              <p className="text-uppercase text-danger">SENIOR PARTNER</p>
+              <h3 className="text-capitalize fw-bold">Barry Allen</h3>
+              <p className='mt-4'>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fugiat earum exercitationem in possimus voluptatibus eaque ducimus asperiores, deleniti delectus quod.</p>
+              <div className='mt-5'>
+                <FaTwitter className='ourTeamIconInfo' />
+                <FaFacebookF className='ourTeamIconInfo' />
+                <FaLinkedinIn className='ourTeamIconInfo' />
+                <FiMail className='ourTeamIconInfo' />
               </div>
             </div>
           </div>
+
           
         </div>
       </div>
