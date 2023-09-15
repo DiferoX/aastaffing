@@ -14,7 +14,7 @@ const People = () => {
           <div className="headerContent">
             <div id='head-image-ourTeam' className='overlayImageHeader'></div>
             <p className="text-center">Our Team</p>
-            <h5 className="fw-bold">We offer the best legal services</h5>
+            <h5 className="fw-bold">We help you avoid legal problems</h5>
           </div>
         </div>
       </div>
@@ -22,7 +22,7 @@ const People = () => {
       <div className='container'>
 
         <div className='ourTeamHomeContent1 my-5'>
-          <p className="text-decoration-underline text-center text-danger text-uppercase fw-bold">OUR TEAM</p>
+          {/* <p className="text-decoration-underline text-center text-danger text-uppercase fw-bold">OUR TEAM</p> */}
           <h1 className='text-center'>Professional Team</h1>
         </div>
 
@@ -64,7 +64,7 @@ const People = () => {
             <h6 className="text-decoration-underline text-danger fw-bold">WORK WITH US</h6>
             <h3 className="fw-bold py-5">We are always looking for new partners</h3>
             <p className="text-muted">Lorem ipsum dolor sit amet consectetur adipisicing elit. Adipisci earum voluptatem quis tempore assumenda sit, asperiores eum repellendus illo pariatur neque omnis accusantium rerum aspernatur fuga ipsa dolorum officia consequuntur.</p>
-            <button type="button" className="btn btn-danger btn-lg mt-5 fw-bold">Make an Appointment</button>
+            <button type="button" className="btn btn-danger btn-lg mt-5 fw-bold">Contact Us</button>
           </div>
         </div>
       </div>

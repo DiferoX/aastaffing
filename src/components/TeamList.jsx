@@ -106,7 +106,7 @@ export const ourTeam =
   },
   {
     id: uuidv4(), 
-    name: "Barry Allen",
+    name: "Harley Quinn",
     title: 'XXXXXX XXXXXX',
     image: 'https://i.pravatar.cc/450?img=45',
     code: '45',
