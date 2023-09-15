@@ -18,9 +18,9 @@ const NavBar = () => {
   return (
     <nav id="navbar" className="navbar navbar-expand-lg navbar-dark">
       <div className="container-fluid">
-        <a className="navbar-brand" href="#home">
+        <a className="navbar-brand" href="/">
           <img src={Logo} alt="Logo" width="100" className="logoImg d-inline-block align-text-center m-3" />
-          <div>
+          <div className='navbarLogoInfo'>
             <h2>AA STAFFING</h2>
             <h6>Abogados Americanos</h6>
           </div>

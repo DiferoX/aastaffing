@@ -1,5 +1,5 @@
-import { useEffect, useState } from 'react'
-import { BrowserRouter, Route, Routes } from 'react-router-dom'
+// import { useEffect, useState } from 'react'
+import { HashRouter as BrowserRouter, Route, Routes } from 'react-router-dom'
 import './App.css'
 
 import Home from './pages/Home'
@@ -49,6 +49,7 @@ function App() {
         
         <Routes>
           <Route path='/' element={<Home />} />
+          {/* <Route path='/aastaffing' element={<Home />} /> */}
           <Route path='/practice-area' element={<PracticeArea />} />
           <Route path='/people' element={<People />} />
           <Route path='/our-clients' element={<OurClients />} />

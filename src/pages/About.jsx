@@ -54,12 +54,14 @@ const About = () => {
       </div>
 
 
-      <div className="row text-start px-4">
-        <div className="legalServicesContent">
-          <div id='image-legalServices' className='overlayLegalServices'></div>
-          <h6 className="text-decoration-underline text-danger fw-bold">LEGAL SERVICES</h6>
-          <p className="text-center">We help solve your legal issues</p>
-          <button type="button" className="btn btn-danger btn-lg mt-5 fw-bold">Make an Appointment</button>
+      <div className='container-fluid'>
+        <div className="row text-start">
+          <div className="legalServicesContent">
+            <div id='image-legalServices' className='overlayLegalServices'></div>
+            <h6 className="text-decoration-underline text-danger fw-bold">LEGAL SERVICES</h6>
+            <p className="text-center">We help solve your legal issues</p>
+            <button type="button" className="btn btn-danger btn-lg mt-5 fw-bold">Make an Appointment</button>
+          </div>
         </div>
       </div>
 

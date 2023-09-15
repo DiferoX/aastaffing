@@ -18,7 +18,7 @@ const OurClientsHome = () => {
             <p className="text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit.</p>
           </div>
           <div className='d-flex justify-content-end align-items-center'>
-            <Link to="/our-clients" className="btn btn-danger btn-lg fw-bold">View All</Link>
+            <Link to="/our-clients" preventScrollReset={true} className="btn btn-danger btn-lg fw-bold">View All</Link>
           </div>
         </div>
 

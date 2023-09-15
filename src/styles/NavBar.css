@@ -13,6 +13,13 @@
   align-items: center;
 }
 
+.navbarLogoInfo {
+  font-size: 80px;
+  font-weight: bold;
+  color: #fff;
+  text-shadow: 5px 5px 5px rgba(0, 0, 0);
+}
+
 .navLinkBtns{
   text-decoration: none;
   font-weight: bold;

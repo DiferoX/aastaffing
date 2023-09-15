@@ -1,5 +1,6 @@
 import React from 'react'
 import '../styles/ContactUsHome.css'
+import { Link } from 'react-router-dom'
 
 const ContactUsHome = () => {
   return (
@@ -11,7 +12,7 @@ const ContactUsHome = () => {
             <h6 className="text-decoration-underline text-danger fw-bold">FREE CASE EVALUATION</h6>
             <p className="text-muted">Contact Us</p>
             <h3 className="fw-bold">1-800-000-111</h3>
-            <button type="button" className="btn btn-danger btn-lg mt-5 fw-bold">Make an Appointment</button>
+            <Link to="/contact" className="btn btn-danger btn-lg mt-5 fw-bold">Make an Appointment</Link>
           </div>
         </div>
 

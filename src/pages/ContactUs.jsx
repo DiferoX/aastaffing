@@ -66,6 +66,8 @@ const ContactUs = () => {
         </div>
       </section>
 
+
+      {/* Google Maps  */}
       <div className='container py-5'>
         <iframe 
           src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1983.2074356023488!2d-75.56906656099325!3d6.208883664921844!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8e442820eb1fc6cd%3A0x4fae88b7c8f0b5a0!2sParque%20lleras!5e0!3m2!1ses-419!2sco!4v1694549265732!5m2!1ses-419!2sco" 
