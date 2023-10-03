@@ -20,8 +20,11 @@ const Header = () => {
         <div className="itemContent carousel-item active" data-bs-interval="5000">
           <div id='carousel-item-01' className='overlay-image'></div>
           <div className="headContent container">
-            <h1>T1 slide label</h1>
-            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Impedit, velit maiores illum voluptatem dolorum praesentium magni unde cupiditate nostrum ratione.</p>
+            <h2>ABOGADOS</h2>
+            <h2>AMERICANOS</h2>
+            <h2 className='mb-5'>STAFFING</h2>
+            {/* <h1>T1 slide label</h1> */}
+            <p className='fs-4'>Your pre-trained, bilingual, remote legal staffing solution.</p>
             <button type="button" className="btn btn-danger btn-lg mt-5 fw-bold">Find More</button>
           </div>
         </div>
@@ -29,8 +32,8 @@ const Header = () => {
         <div className="itemContent carousel-item" data-bs-interval="5000">
           <div id='carousel-item-02' className='overlay-image'></div>
           <div className="headContent container">
-            <h1>T2 slide label</h1>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laborum, recusandae similique? Eveniet molestias consequuntur fuga molestiae quidem, at dolorum consequatur ut quasi ipsam dignissimos, quos cum perspiciatis ea ullam quas?</p>
+            <h1>Pre-trained on Personal Injury</h1>
+            <p className='fs-4'>All of our staff goes through a hands-on training program at a personal injury law firm, working on real personal injury cases, and are ready to join your team as a legal assistant, case manager, paralegal, remote receptionist, intake specialist... whatever you need!</p>
             <button type="button" className="btn btn-danger btn-lg mt-5 fw-bold">Find More</button>
           </div>
         </div>
@@ -38,8 +41,8 @@ const Header = () => {
         <div className="itemContent carousel-item" data-bs-interval="5000">
           <div id='carousel-item-03' className='overlay-image'></div>
           <div className="headContent container">
-            <h1>T3 slide label</h1>
-            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nihil amet, veniam qui doloribus in quaerat veritatis nulla eveniet vitae debitis quidem, quos, corrupti enim eum?</p>
+            <h1>Transparent Pricing</h1>
+            <p className='fs-4'>AAS provides a competitive, transparent pricing model, starting at $2250/month ($12.98/hour), plus a $750 onboarding fee. We pay above-market rates in Colombia, attracting the best talent around, with great attitudes and great English!</p>
             <button type="button" className="btn btn-danger btn-lg mt-5 fw-bold">Find More</button>
           </div>
         </div>
